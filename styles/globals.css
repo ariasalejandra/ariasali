@@ -1,7 +1,11 @@
-html,
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body {
   padding: 0;
   margin: 0;
+  background: linear-gradient(rgb(165, 66, 111), rgb(185, 88, 105), rgb(223, 156, 192), rgb(163, 165, 231));
+  animation:gradient 10s ease infinite;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -15,15 +19,74 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:flex-start;
   align-items: center;
 }
 
 code {
-  background: #fafafa;
+  background: #e9d9e1;
+  color: rgb(55, 50, 50);
   border-radius: 5px;
   padding: 0.75rem;
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+  
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.hvr-float {
+  color: #4E4E4E;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
+}
+
+.org-color-text {
+  color: #c4e5e8;
+  
+}
+
+.ul-special {
+  text-decoration-line: none;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding-top: 1.5rem;
+  gap: 2.5rem;
+  list-style-type: none;
+  display: flex;
 }
 
 .container {
@@ -32,4 +95,8 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.align-footer {
+  align-items:start;
 }
