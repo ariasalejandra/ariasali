@@ -42,6 +42,28 @@ h1 {
   font-weight: bold;
 }
 
+.block-text {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  tab-size: 4;
+  display: block;
+  margin-block-start: 3em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 2.5rem;
+  padding-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+  Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: bold;
+  font: size 600px;;
+  padding: 5rem 0;
+  color: gainsboro;
+}
+
 .header-main {
   display: flex;
   justify-content: space-around;
@@ -78,6 +100,18 @@ a {
   
 }
 
+.cloud-color {
+  color: rgb(45, 78, 122);
+}
+
+.cyber-color {
+  color: rgb(115, 64, 136);
+}
+
+.school-color {
+  color: rgb(204, 141, 86);
+}
+
 .ul-special {
   text-decoration-line: none;
   font-weight: 700;
@@ -98,5 +132,37 @@ a {
 }
 
 .align-footer {
-  align-items:start;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1.5rem;
+  gap: 2.5rem;
+  margin-left: 20px;
+}
+ /* credits to css-tricks for typewriter code! */
+ .typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(204, 148, 232); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(204, 148, 232) }
 }

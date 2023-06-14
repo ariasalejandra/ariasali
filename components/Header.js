@@ -4,7 +4,6 @@ export default function Header() {
     <React.Fragment>
         <header class="header-main">
         <a href="/">
-          <img alt="header-gif" class="hrv float" src="public/prog1.gif"></img>
           </a>
           <nav>
             <ul className="ul-special">
