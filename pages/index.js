@@ -20,8 +20,17 @@ export default function Home() {
         <p className='block-text'>
           Hello! My name is Alejandra Arias and I am a student attending the <span className='school-color'>University of Illinois Urbana-Champaign</span> and I am
           studying Information Science with a minor in Computer Science. My interests revolve around <span className='cloud-color'>cloud development</span> and <span className='cyber-color'>cyber security!</span> 
-          As a hispanic student, I try my best to get other Hispanic or POC students to get involved in Tech. I develop for the purpose of making an impact on my community !
+           As a hispanic student, I try my best to get other Hispanic or poc students to get involved in Tech. I develop for the purpose of making an impact on my community !
         </p>
+        <div></div>
+        <section>
+          <h1 className='org-color-text'>
+            My Journey
+          </h1>
+          <p className='block-text'>
+
+          </p>
+        </section>
       </main>
 
       <Footer />
