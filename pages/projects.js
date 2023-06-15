@@ -5,7 +5,7 @@ export default function Projects() {
         <React.Fragment>
             <Header/>
             <main>
-                <h1>
+                <h1 className="typewriter org-color-text">
                     <p>hello</p>
                 </h1>
             </main>
