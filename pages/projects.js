@@ -4,10 +4,8 @@ export default function Projects() {
     return (
         <React.Fragment>
             <Header/>
-            <main>
-                <h1 className="typewriter org-color-text">
-                    <p>hello</p>
-                </h1>
+            <main className="typewriter">
+                <h1 className="org-color-text">my projects !</h1>
             </main>
         </React.Fragment>
     )
