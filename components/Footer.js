@@ -1,6 +1,6 @@
 import styles from './Footer.module.css'
 import React from "react";
-import Github from "/images/github.svg"
+
 export default function Footer() {
   return (
     <React.Fragment>
