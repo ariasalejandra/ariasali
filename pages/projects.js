@@ -15,19 +15,9 @@ export default function Projects() {
                     <h1 className="og-text-color">my projects</h1>
                 </section>
                 <p className="personal-website">
-                    <code>Personal/Website.html</code>
+                    <code>personal/website.html</code>
                 </p>
-                <p className="projects-block-text">
-                    my most recent project is this website! i've been trying to learn frontend development and this is the result.
-                    this website is build using next.js and react fragments. i've deployed it using netlify instead of github pages
-                    because gh-pages does not support this type of app. read more about my journey on my blog!
-                </p>
-                <p className="personal-website">
-                    <code>Crustacean Chat</code>
-                </p>
-                <section>
-                    <h1 className="og-text-color">research</h1>
-                </section>
+                
             </main>
             <Footer/>
         </React.Fragment>

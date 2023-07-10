@@ -4,7 +4,7 @@ export default function Header() {
   return(
     <React.Fragment>
         <header class="header-main">
-          <nav className="navigation">
+          <nav>
             <ul className="ul-special">
                 <li><a className="hvr-float og-text-color " href="/">Home</a></li>
                 <li ><a className="hvr-float og-text-color" href="/about">About</a></li>
