@@ -5,7 +5,7 @@ import React from "react"
 
 export default function Home() {
   return (
-    <><link rel='stylesheet' type='text/css' href='global.css'></link><html className="container">
+    <><link rel='stylesheet' type='text/css' href='global.css'></link><html>
       <Head class=".typewriter">
         <meta httpEquiv='X-UA-Compatible' ></meta>
         <title >alejandra</title>
